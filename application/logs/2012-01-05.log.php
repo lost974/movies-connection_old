@@ -1,0 +1,6 @@
+<?php defined('SYSPATH') or die('No direct script access.'); ?>
+
+2012-01-05 04:37:57 +04:00 --- error: Uncaught PHP Error: mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Unknown MySQL server host 'root' (22) dans le fichier /Users/Lost974/Sites/MoviesConnection/system/libraries/drivers/Database/Mysql.php à la ligne 61
+2012-01-05 06:21:57 +04:00 --- error: Uncaught PHP Error: mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Unknown MySQL server host 'root' (22) dans le fichier /Users/Lost974/Sites/MoviesConnection/system/libraries/drivers/Database/Mysql.php à la ligne 61
+2012-01-05 14:44:15 +04:00 --- error: Uncaught PHP Error: mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Unknown MySQL server host 'root' (22) dans le fichier /Users/Lost974/Sites/MoviesConnection/system/libraries/drivers/Database/Mysql.php à la ligne 61
+2012-01-05 15:57:58 +04:00 --- error: Uncaught PHP Error: mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Unknown MySQL server host 'root' (22) dans le fichier /Users/Lost974/Sites/MoviesConnection/system/libraries/drivers/Database/Mysql.php à la ligne 61

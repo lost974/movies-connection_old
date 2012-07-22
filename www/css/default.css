@@ -1,0 +1,164 @@
+body
+{
+   width: 1000px;
+   margin: auto;
+   margin-top: 10px;
+   margin-bottom: 20px;    
+   background-image: url("images/fond1.png");
+   background-repeat: repeat;
+   border-radius: 10px;
+}
+
+
+#en_tete
+{
+   width: 1000px;
+   height: 220px;
+   background-color: rgb(248,148,34);
+   background-image: url("images/banniere-beta.jpg");
+   background-repeat: no-repeat;
+
+}
+
+#menu_principal
+{
+	width:100%;
+	height:20px;
+	background-color: rgb(250,214,129);
+    background-repeat: repeat-x;
+    text-align:center;
+}
+
+#menu_principal a
+{
+	margin-right: 50px;
+	margin-left: 5px;
+	color: black;
+	text-decoration: none;
+}
+
+#menu_principal a:hover
+{
+   color: rgb(144,144,144);
+}
+
+#menu_secondaire
+{
+	width:100%;
+	height:20px;
+	background-color: white;
+    background-repeat: repeat-x;
+    text-align:right;
+}
+
+
+a
+{
+	color: black;
+	text-decoration: none;
+}
+
+a:hover
+{
+   color: rgb(144,144,144);
+}
+
+
+#corps
+{
+	width: 1000px;
+	min-height: 600px; 
+	margin-bottom: 20px;
+   
+   background-color: white;
+   background-repeat: repeat-x;
+   
+   border-top: 5px solid white;
+}
+
+
+#corps h1, h2,h3
+{ 
+   display:block;
+   width:99.5%;
+   border-right: 1px solid white;
+   border-left: 2px solid white;
+   background-color: rgb(250,214,129); 
+   text-align: left;
+   font-family: "Times New Roman",Arial, "Arial Black", Times, serif;
+}
+
+div.mini_fiche_film
+{ 
+	width:160px;
+	float:left;
+	margin: 20px;
+	text-align: center;
+}
+
+div.clearBoth
+{
+	clear:both;
+}
+
+div.tweet_fiche_film
+{
+	border: 2px dotted rgb(250,214,129);
+	display:block;
+	width: 95%;
+	float: left;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	margin-bottom: 4px;
+}
+
+div.tweet_fiche_film_img
+{
+	float: left;
+	margin-top: 4px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+div.mini_fiche_film_titre
+{
+	
+}
+
+.imagefilm
+{ 
+	float:left;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.fichefilm
+{ 
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+/*#mini_fiche_film_img
+{
+	display:block;
+	width: 25%;
+	text-align:center;
+}
+
+#mini_fiche_film_titre
+{
+	display:block;
+	width: 25%;
+	float: left;
+}*/
+
+#pied_de_page
+{
+   padding: 5px;
+   clear: both;
+
+   text-align: right;
+
+   color: Black;
+
+}

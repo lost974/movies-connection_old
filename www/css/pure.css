@@ -1,0 +1,451 @@
+/*-----------------------------------------------------
+
+						GENERAL
+
+------------------------------------------------------*/
+
+body
+{
+	font-family: "Times New Roman", Georgia, serif;
+	width: 1000px;
+	margin: auto;
+	margin-bottom: 20px;
+	background-color: white;
+	background-image: url("images/fond.png");
+	background-repeat: repeat;
+	background-attachment: fixed;
+}
+
+
+#en_tete
+{
+   width: 1000px;
+   height: 100px;
+   border-bottom: 1px solid black;
+   background-color: rgb(248,148,34);
+   display:block;
+
+}
+
+#search
+{
+	float: right;
+	position: relative;
+	top : 62px;
+	right: 20px;
+	width: 270px;
+	height:30px;
+	border-radius: 50px;
+	background-color: rgb(250,214,129);
+	background-image: url('images/search.png');
+	background-repeat: no-repeat;
+	background-position: 7px 8px;
+    text-align:center;
+}
+
+#menu
+{
+	width: 1000px;
+	background-color: white;
+	height:30px;
+}
+
+#menu_principal
+{
+	position: relative;
+	top : 3px;
+	left: 350px;
+	padding-top: 4px;
+	background-color: white;
+    border-right: 0px solid black;
+    border-bottom: 1px solid black;
+    border-left: 0px solid black;
+}
+
+#corps
+{
+	width: 1000px;
+	min-height: 600px; 
+	background-color: white;
+	padding-top: 1px;
+	padding-bottom: 12px;
+}
+
+
+#corps h1, h2,h3
+{ 
+   display:block;
+   background-color: white;
+   /**border-top: 1px solid black;**/
+   border-bottom: 1px solid black;
+   text-align: left;
+   font-family: "Times New Roman",Arial, "Arial Black", Times, serif;
+}
+
+#block
+{
+	background-color: white;
+	margin : 9px;
+}
+
+#name_block
+{
+	background-color: rgb(250,214,129);
+	text-align: left;
+	font-size: large;
+	font-weight: bold;
+}
+
+#pied_de_page
+{
+	width: 1000px;
+	height: 21px;
+	border-bottom: 1px solid black;
+	background-color: white;
+    text-align:center;
+	color: Black;
+
+}
+
+.clear{clear: both;}
+
+.pagination
+{
+	width: 200px;
+	position: relative;
+	left: 200px;
+}
+
+#idevice
+{
+}
+
+#search input#title
+{
+	width: 210px;
+	height: 20px;
+	padding: 5px;
+	background-color: rgb(250,214,129);
+	border: black;
+	color: black;
+	font-size: 15px;
+	border-radius: 50px;
+	outline: 0;
+}
+
+
+#search input[type=submit]
+{
+	background:url(images/loupe.png) right no-repeat;
+	background-color: rgb(250,214,129);
+	position: relative;
+	top: -13px;
+	width:33px;
+	height: 33px;
+	padding: 0 0 0 10px;
+	cursor: pointer;
+	border:0;
+	border-top-right-radius: 50px 50px;
+	border-bottom-right-radius: 50px 50px;
+}
+
+/*-----------------------------------------------------
+
+						LIENS
+
+------------------------------------------------------*/
+
+#menu_principal a
+{
+	margin-right: 20px;
+	margin-left: 5px;
+	color: black;
+	font-size: large;
+	text-decoration: none;
+}
+
+#menu_principal a:hover
+{
+   color: rgb(248,148,34);
+}
+
+a
+{
+	color: black;
+	text-decoration: none;
+}
+
+a:hover
+{
+   color: rgb(144,144,144);
+}
+
+/*-----------------------------------------------------
+
+						MOVIES
+
+------------------------------------------------------*/
+
+div.mini_fiche_film
+{ 
+	width:155px;
+	height : 230px;
+	float:left;
+	margin: 20px;
+	text-align: center;
+}
+
+.movie_table
+{
+	float: left;
+	width: 79%;
+	border-right: 1px solid black;
+	border-collapse: collapse;
+}
+
+.movie_poster
+{
+	width: 170px;
+	text-align: center;
+}
+
+.movie_middle
+{
+	width: 700px; 
+}
+
+.movie_youtube
+{
+	text-align: center;
+}
+
+.movie_interaction
+{
+	float: left;
+	width : 21%;
+	text-align: center;
+	border-collapse: collapse;
+}
+.movie_i
+{
+	height : 40px;
+	border-bottom: 1px dotted black;
+	text-align: center;
+	padding-top: 5px;
+}
+
+#movie_view_note
+{
+	float: right;
+	position: relative;
+	top : -130px;
+	width: 150px; 
+}
+
+#alphabetic
+{
+	position: relative;
+	left : 160px;
+	font-size: large;
+}
+
+
+/*-----------------------------------------------------
+
+						PROFIL
+
+------------------------------------------------------*/
+
+.profil_film
+{
+	width: 60px;
+	float:left;
+	margin: 10px;
+}
+
+.movie_like
+{
+	width: 100%;
+	border-bottom: 1px solid black;
+	margin-bottom: 5px;
+}
+
+.profil_friend
+{
+	margin: 5px;
+	width: 75px;
+	float: left;
+	text-align: center;
+}
+
+/*-----------------------------------------------------
+
+						EVENTS
+
+------------------------------------------------------*/
+
+
+#event_date
+{
+	text-align: left;
+	font-size: small;
+	color: gray;
+}
+
+#block_wall
+{ 
+	background-image: url('images/event.png');
+	background-repeat: repeat-x;
+	border-bottom: 1px dotted black;
+	margin : 9px;
+}
+
+#wall_table
+{
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.event_user
+{
+	background-image: url('images/event.png');
+	background-repeat: repeat-x;
+	text-align: center;
+	border-bottom: 1px dotted black;
+}
+
+.event_label
+{
+	background-image: url('images/event.png');
+	background-repeat: repeat-x;
+	border-bottom: 1px dotted black;
+}
+
+.event_movie_img
+{
+	background-image: url('images/event.png');
+	background-repeat: repeat-x;
+	text-align: center;
+	border-bottom: 1px dotted black;
+}
+
+/*-----------------------------------------------------
+
+						USER
+
+------------------------------------------------------*/
+
+td.img
+{
+	width : 20px;
+}
+
+td.label
+{
+	width : 250px;
+}
+
+td.value
+{
+	width : 300px;
+}
+
+#lost
+{
+	font-size: small;
+}
+
+#register
+{
+	width: 300px;
+	height: 40px;
+	position: relative;
+	left: 350px;
+	background-color: rgb(248,148,34);
+	border: 1px solid black;
+}
+
+#login
+{
+	background-color: white;
+	float: right;
+	position: relative;
+	top : 60px;
+	width: 290px;
+	height:40px;
+    text-align:center;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+}
+
+#login input[type="text"]
+{
+	padding: 1px;
+	width: 100px;
+	background-color: #eee;
+	border: 1px solid black; 
+	color: black;
+}
+
+#login input[type="password"]
+{
+	padding: 1px;
+	width: 100px;
+	background-color: #eee;
+	border: 1px solid black; 
+	color: black;
+}
+
+#logout
+{
+	width: 150px;
+	position: relative;
+	left: 425px;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	
+	background-color: white;
+}
+
+#logout a:hover
+{
+   color: rgb(248,148,34);
+}
+
+
+.member_name
+{
+	width: 100px;
+}
+
+/*-----------------------------------------------------
+
+						NEWS
+
+------------------------------------------------------*/
+
+.bottom_news
+{
+	float: right;
+	font-size: small;
+	color: gray;
+}
+
+/* Exemple */
+
+#slider {
+    position:relative;
+    width:618px; /* Change this to your images width */
+    height:246px; /* Change this to your images height */
+    background:url(images/loading.gif) no-repeat 50% 50%;
+}
+#slider img {
+    position:absolute;
+    top:0px;
+    left:0px;
+    display:none;
+}
+#slider a {
+    border:0;
+    display:block;
+}
