@@ -4,7 +4,7 @@ SetEnv PHP_VER 5_3
 RewriteEngine On
 
 # Installation directory
-RewriteBase /MoviesConnection/www/
+RewriteBase /movies-connection/www/
 #RewriteBase /
 
 # Protect application and system files from being viewed
